@@ -3,7 +3,7 @@ run_analysis <- function(){
     library(dplyr)
     
     #set path to input files and for creating output tidy.txt file
-    PATH <- "C:\\Work\\R\\dcProject\\UCI HAR Dataset\\"
+    PATH <- paste(getwd(),"\\UCI HAR Dataset\\", sep = "")
     
     # load traininig files for gyro data, subject data and activity data
     trainFull <- read.table(paste(PATH, "train\\X_train.txt", sep = ""))

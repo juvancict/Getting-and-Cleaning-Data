@@ -53,5 +53,5 @@ run_analysis <- function(){
     allFinalGrouped <- allFinal %>% group_by(subject, activity) %>% summarise_each(funs(mean))
     
     # write txt file
-    write.table(allFinalGrouped, paste(PATH, "tidy.txt"), row.names = FALSE)
+    write.table(allFinalGrouped, paste(PATH, "tidy.txt"), row.names = FALSE, sep = ";")
 }

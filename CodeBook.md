@@ -1,9 +1,9 @@
-tidy.txt containes means for listed variables, grouped by variables:
+tidy.txt containes means for listed variables, grouped by:
 subject: person id who performed test (1:30)
 activity: performed activity 
-1 WALKING 2 WALKING_UPSTAIRS 3 WALKING_DOWNSTAIRS 4 SITTING 5 STANDING 6 LAYING
+(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-From the original dataset we variables which contain kept following variables:
+From the original dataset we kept variables which contain:
 mean(): Mean value or
 std(): Standard deviation
 
